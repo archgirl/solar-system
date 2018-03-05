@@ -68,12 +68,22 @@ footer {
   margin-top: -70px;
 }
 
-#mercury-orbit {
+#mercury-orbit,
+#venus-orbit,
+#earth-orbit,
+#mars-orbit,
+#jupiter-orbit,
+#saturn-orbit,
+#uranus-orbit,
+#neptune-orbit {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 500px;
   height: 500px;
+}
+
+#mercury-orbit {
   margin-top: -250px;
   margin-left: -250px;
   -webkit-animation: spin-right 7.18673s linear infinite;
@@ -94,11 +104,6 @@ footer {
 }
 
 #venus-orbit {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 500px;
-  height: 500px;
   margin-top: -250px;
   margin-left: -250px;
   -webkit-animation: spin-right 18.45553s linear infinite;
@@ -121,11 +126,6 @@ footer {
 }
 
 #earth-orbit {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 500px;
-  height: 500px;
   margin-top: -250px;
   margin-left: -250px;
   -webkit-animation: spin-right 30s linear infinite;
@@ -148,11 +148,6 @@ footer {
 }
 
 #mars-orbit {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 500px;
-  height: 500px;
   margin-top: -250px;
   margin-left: -250px;
   -webkit-animation: spin-right 56.42613s linear infinite;
@@ -175,11 +170,6 @@ footer {
 }
 
 #jupiter-orbit {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 500px;
-  height: 500px;
   margin-top: -250px;
   margin-left: -250px;
   -webkit-animation: spin-right 355.72282s linear infinite;
@@ -200,11 +190,6 @@ footer {
 }
 
 #saturn-orbit {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 500px;
-  height: 500px;
   margin-top: -250px;
   margin-left: -250px;
   -webkit-animation: spin-right 882.69525s linear infinite;
@@ -225,11 +210,6 @@ footer {
 }
 
 #uranus-orbit {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 500px;
-  height: 500px;
   margin-top: -250px;
   margin-left: -250px;
   -webkit-animation: spin-right 2512.4002s linear infinite;
@@ -250,11 +230,6 @@ footer {
 }
 
 #neptune-orbit {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 500px;
-  height: 500px;
   margin-top: -250px;
   margin-left: -250px;
   -webkit-animation: spin-right 4911.78386s linear infinite;
